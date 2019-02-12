@@ -51,79 +51,147 @@
     </nav>
   </div>
   <!-- Content Section -->
+
   <div class="container">
+
     <div class="row">
+
       <div class="col-lg-7 col-md-12">
+
         <!-- Left box  -->
+
         <div class="box">
+
           <h3 class="title">Summary: Latitude and Longitude vs. X</h3>
+
           <hr>
+
           <img src="Latitude_vs_Longitude_data_points.png" class="vizualization rounded float-left" alt="Data points" hspace="20">
+
           <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
+
             accomplish this analysis, a <a href="https://github.com/JoannePeel/Weather_API_Analysis/blob/master/weather_analysis.ipynb" style="color:#482677FF">python script</a> 
+
             was developed, which randomly generates coordinates for 500 + cities. </p>
+
             <p>The geographic information was then used to retrieve data via API from 
+
             <a href="http://api.openweathermap.org"style="color:#482677FF">openweathermap.org</a>.
+
             The information analyzed here was temperature, humidity, cloudiness, and maximum windspeed. 
+
             The projected data correspond to the 9th of february 2019.</p>
+
             <p>After assembling the dataset, Matplotlib was used to plot various aspects of the weather vs. latitude and logitude.
+
             The factors examined included: temperature, cloudiness, wind speed, and humidity. This site provides the
+
             source data and visualizations created as part of the analysis, as well as explanations and descriptions of
+
             any trends and correlations witnessed.</p>
-        </div>    
+
+        </div>
+
       </div>
-    </div>
-  </div>
-  
-  <div class="col-lg-5 col-md-12">
-    <!-- Right Box -->
-      <div class="box">
-      <h5 class="title">Visualizations</h5>
-      <hr>
+
+      <div class="col-lg-5 col-md-12">
+
+        <!-- Right Box -->
+
+        <div class="box">
+
+          <h5 class="title">Visualizations</h5>
+
+          <hr>
 
 
-      <div class="container">
-        <div class="row" style="padding-bottom: 30px;">
-          <div class="col-6">
-            <a href="temperature.html">
-              <img class="panel" src="Latitude_vs_Longitude_temperature.png" alt="Temperatures">
-              </a>
-          </div>
-          
-          <div class="col-6">
-            <a href="humidity.html">
-              <img class="panel" src="Latitude_vs_Longitude_humidity.png" alt="Humidity">
-            </a>
-          </div>
+
+
+
+          <div class="container">
+
+            <div class="row" style="padding-bottom: 30px;">
+
+              <div class="col-6">
+
+                <a href="temperature.html">
+
+                  <img class="panel" src="Latitude_vs_Longitude_temperature.png" alt="Temperatures">
+
+                </a>
+
+              </div>
+
+              <div class="col-6">
+
+                <a href="humidity.html">
+
+                  <img class="panel" src="Latitude_vs_Longitude_humidity.png" alt="Humidity">
+
+                </a>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="row" style="padding-bottom: 30px;">
+
+              <div class="col-6">
+
+                <a href="cloudiness.html">
+
+                  <img class="panel" src="Latitude_vs_Longitude_cloud.png" alt="Cloudiness">
+
+                </a>
+
+              </div>
+
+              <div class="col-6">
+
+                <a href="wind_speed.html">
+
+                  <img class="panel" src="Latitude_vs_Longitude_wind.png" alt="Max. windspeed">
+
+                </a>
+
+              </div>
+
+
+
+
+
+            </div>
+
         </div>
 
-        <div class="row" style="padding-bottom: 30px;">
-          <div class="col-6">
-            <a href="cloudiness.html">
-              <img class="panel" src="Latitude_vs_Longitude_cloud.png" alt="Cloudiness">
-            </a>
-          </div>
-          <div class="col-6">
-            <a href="wind_speed.html">
-              <img class="panel" src="Latitude_vs_Longitude_wind.png" alt="Max. windspeed">
-            </a>
-          </div>
-
-        </div>
-    </div>
   
+
+    </div>
+
       <!-- Footer Section -->
+
   <footer>
+
     <div class="footer">Copyright &copy; JP 2019</div>
+
   </footer>
 
+
+
   <!-- Bootstrap JS -->
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
 </body>
 
-</html>
 
-    
+
+</html>
