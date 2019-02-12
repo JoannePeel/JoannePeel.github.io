@@ -1,6 +1,6 @@
 # JoannePeel.github.io
 ## Web Visualization Dashboard
-I have created a [dashboard](JoannePeel.github.io) using HTML and CSS to show the results of my [Weather_API_Analysis](https://github.com/JoannePeel/Weather_API_Analysis).
+I have created a dashboard (JoannePeel.github.io) using HTML and CSS to show the results of my [Weather_API_Analysis](https://github.com/JoannePeel/Weather_API_Analysis).
 
 The website consists of 7 seperate webpages:
 1. The landing page containing:
